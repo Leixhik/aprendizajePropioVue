@@ -35,7 +35,7 @@ import { computed } from 'vue'
     :class="claseBoton"
     @click="manejarClick"
   >Aplauso</button>
-  <h1>Llevas {{ props.puntos }} aplausos</h1>
+  <!-- <h1>Llevas {{ props.puntos }} aplausos</h1> -->
 </template>
 
 <style scoped>
