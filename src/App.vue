@@ -2,7 +2,6 @@
 import { ref, computed } from "vue";
 import ApplauseCount from "./components/ApplauseCount.vue";
 
-// const totalAplausos = ref(0);
 const categorias = ref([
   { id: 1, nombre: "Diseño", puntos: 0 },
   { id: 2, nombre: "Lógica", puntos: 0 },
